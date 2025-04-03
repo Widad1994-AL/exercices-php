@@ -1,9 +1,22 @@
 <?php
 
-// Exercice 7 : Calculer la factorielle d'un nombre.
-// Pseudo-code :
-// fact = 1
-// pour i de 1 à n faire
-//   fact *= i
-// afficher fact
+$n=6;
+function factorielle($n){
+
+$fact=1;
+
+for($i=1;$i<=$n;$i++) {
+$fact*=$i;
+
+}
+return$fact;
+
+}
+
+echo"la factorielle de $n est :".factorielle($n);
+
+?>
+
+
+
 
